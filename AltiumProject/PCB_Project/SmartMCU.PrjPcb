@@ -65,17 +65,34 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RFBQZLPJ
 
+[Document2]
+DocumentPath=Battery.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DQVFCDDG
+
 [Parameter1]
+Name=Designer
+Value=Huseyin Sahin
+
+[Parameter2]
 Name=My Title
 Value=Smart Mcu Project
 
-[Parameter2]
+[Parameter3]
 Name=Start Date
 Value=02.04.2024
-
-[Parameter3]
-Name=Designer
-Value=Huseyin Sahin
 
 [Configuration1]
 Name=Sources
@@ -1043,6 +1060,11 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=+12V|NetColor=clRed
+Net2=NetName=+5V|NetColor=clRed
+Net3=NetName=GND|NetColor=clBlue
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
